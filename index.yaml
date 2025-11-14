@@ -43,6 +43,18 @@ entries:
     version: 0.1.2
   aro-clf-blob:
   - apiVersion: v2
+    created: "2025-11-14T13:13:11.920621466Z"
+    description: A Helm chart for Kubernetes
+    digest: eb25632aa918fbd85790db282c1069fdfc059ff76d71d34b427e67bb983ab983
+    home: https://github.com/rh-mobb/helm-charts
+    maintainers:
+    - name: paulczar
+    name: aro-clf-blob
+    type: application
+    urls:
+    - https://github.com/Scorpiion/helm-charts/releases/download/aro-clf-blob-0.2.24/aro-clf-blob-0.2.24.tgz
+    version: 0.2.24
+  - apiVersion: v2
     created: "2025-11-13T13:44:51.604866042Z"
     description: A Helm chart for Kubernetes
     digest: 6565643d6b64414d6356dbc2ddeb248ad75f64e13adcc562a70e71e70c1c1f93
@@ -396,6 +408,22 @@ entries:
     version: 0.1.1
   aro-thanos-af:
   - apiVersion: v2
+    created: "2025-11-14T13:13:12.274433875Z"
+    dependencies:
+    - name: grafana-cr
+      repository: https://scorpiion.github.io/helm-charts/
+      version: 0.5.1
+    description: A Helm chart for Kubernetes
+    digest: 0ef27671fc7a19cc825b06f1e1f518871aee7be0fe44e994ffcf62ac0cdf236f
+    home: https://rh-mobb.github.io/helm-charts/
+    maintainers:
+    - name: rh-mobb
+    name: aro-thanos-af
+    type: application
+    urls:
+    - https://github.com/Scorpiion/helm-charts/releases/download/aro-thanos-af-0.7.1/aro-thanos-af-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v2
     created: "2025-11-05T13:24:42.709782709Z"
     dependencies:
     - name: grafana-cr
@@ -412,6 +440,18 @@ entries:
     - https://github.com/Scorpiion/helm-charts/releases/download/aro-thanos-af-0.7.0/aro-thanos-af-0.7.0.tgz
     version: 0.7.0
   grafana-cr:
+  - apiVersion: v2
+    created: "2025-11-14T13:13:12.483068115Z"
+    description: A Helm chart for Deploying Grafana instances using the Grafana Operator
+    digest: e0598e9cb725dff70919e198f98de474ceff1f1f7088bb5abbfc41735b844dfa
+    home: https://github.com/rh-mobb/helm-charts
+    maintainers:
+    - name: paulczar
+    name: grafana-cr
+    type: application
+    urls:
+    - https://github.com/Scorpiion/helm-charts/releases/download/grafana-cr-0.5.2/grafana-cr-0.5.2.tgz
+    version: 0.5.2
   - apiVersion: v2
     created: "2025-11-05T13:24:42.857336133Z"
     description: A Helm chart for Deploying Grafana instances using the Grafana Operator
@@ -585,4 +625,4 @@ entries:
     urls:
     - https://github.com/Scorpiion/helm-charts/releases/download/rosa-thanos-s3-0.3.0/rosa-thanos-s3-0.3.0.tgz
     version: 0.3.0
-generated: "2025-11-13T13:44:51.60510298Z"
+generated: "2025-11-14T13:13:12.483334493Z"
