@@ -682,6 +682,18 @@ entries:
     version: 0.7.0
   grafana-cr:
   - apiVersion: v2
+    created: "2025-11-19T23:37:04.061618579Z"
+    description: A Helm chart for Deploying Grafana instances using the Grafana Operator
+    digest: e7bfcdd32ed11dfe6332082580da5718d5eefc836da612baace1b12343c981ac
+    home: https://github.com/rh-mobb/helm-charts
+    maintainers:
+    - name: paulczar
+    name: grafana-cr
+    type: application
+    urls:
+    - https://github.com/Scorpiion/helm-charts/releases/download/grafana-cr-0.5.6/grafana-cr-0.5.6.tgz
+    version: 0.5.6
+  - apiVersion: v2
     created: "2025-11-19T23:01:13.520892651Z"
     description: A Helm chart for Deploying Grafana instances using the Grafana Operator
     digest: 1b2b6d08833896d028eb8e4b3dfa4bf08ca1dcb9b94708eb038f38d2f95b63bd
@@ -902,4 +914,4 @@ entries:
     urls:
     - https://github.com/Scorpiion/helm-charts/releases/download/rosa-thanos-s3-0.3.0/rosa-thanos-s3-0.3.0.tgz
     version: 0.3.0
-generated: "2025-11-19T23:08:05.560926169Z"
+generated: "2025-11-19T23:37:04.06175814Z"
